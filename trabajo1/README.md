@@ -72,7 +72,7 @@ trabajo1/
 
 ---
 
-##✍️ Autor
+## ✍️ Autor
 
 Hugo Alonso Diaz Chavez
 
