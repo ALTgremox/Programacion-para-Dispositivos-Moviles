@@ -39,7 +39,7 @@ trabajo1/
   👉 [Descargar IntelliJ IDEA](https://www.jetbrains.com/idea/download/)  
 - Instalar el **plugin de Kotlin** (en IntelliJ normalmente ya viene incluido).  
 - **JDK 17 o superior**.  
-  👉 [Descargar JDK](https://adoptium.net/es/)
+  👉 [Descargar JDK](https://www.oracle.com/java/technologies/downloads)
 
 ---
 
