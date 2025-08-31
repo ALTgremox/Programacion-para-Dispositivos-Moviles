@@ -5,28 +5,36 @@ Fecha creación: 31-08-2025
 Fecha última modificación: 31-08-2025
 */
 
-class CuentaBancaria(private var limiteRetiro: Double) {
-    private var saldo: Double = 0.0
+class Producto {
+    private var precio: Double = 0.0
+    private var descuento: Double = 0.0 // porcentaje
 
-    fun setSaldo(valor: Double) {
-        if (valor >= 0) saldo = valor else println("❌ Saldo no puede ser negativo")
+    fun setPrecio(valor: Double) {
+        if (valor >= 0) precio = valor else println("❌ Precio no válido")
     }
 
-    fun getSaldo(): Double = saldo
+    fun setDescuento(valor: Double) {
+        if (valor in 0.0..100.0) descuento = valor else println("❌ Descuento inválido")
+    }
 
-    fun retirar(monto: Double) {
-        if (monto <= saldo && monto <= limiteRetiro) {
-            saldo -= monto
-            println("Retiro exitoso: $monto, Saldo restante: $saldo")
-        } else {
-            println("Retiro inválido. Monto supera saldo o límite.")
-        }
+    fun getPrecio(): Double = precio
+    fun getDescuento(): Double = descuento
+
+    fun calcularPrecioFinal(): Double {
+        return precio * (1 - descuento / 100)
     }
 }
 
 fun main() {
-    val cuenta = CuentaBancaria(500.0)
-    cuenta.setSaldo(1000.0)
-    cuenta.retirar(300.0)
-    cuenta.retirar(600.0) // excede límite
+    val prod = Producto()
+
+    print("Ingrese el precio del producto: ")
+    val precio = readLine()!!.toDouble()
+    prod.setPrecio(precio)
+
+    print("Ingrese el descuento (%): ")
+    val descuento = readLine()!!.toDouble()
+    prod.setDescuento(descuento)
+
+    println("💰 Precio final: ${prod.calcularPrecioFinal()}")
 }
