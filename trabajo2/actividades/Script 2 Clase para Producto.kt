@@ -10,11 +10,11 @@ class Producto {
     private var descuento: Double = 0.0 // porcentaje
 
     fun setPrecio(valor: Double) {
-        if (valor >= 0) precio = valor else println("Precio no válido")
+        if (valor >= 0) precio = valor else println("❌ Precio no válido")
     }
 
     fun setDescuento(valor: Double) {
-        if (valor in 0.0..100.0) descuento = valor else println("Descuento inválido")
+        if (valor in 0.0..100.0) descuento = valor else println("❌ Descuento inválido")
     }
 
     fun getPrecio(): Double = precio
@@ -27,7 +27,14 @@ class Producto {
 
 fun main() {
     val prod = Producto()
-    prod.setPrecio(200.0)
-    prod.setDescuento(15.0)
-    println("Precio final: ${prod.calcularPrecioFinal()}")
+
+    print("Ingrese el precio del producto: ")
+    val precio = readLine()!!.toDouble()
+    prod.setPrecio(precio)
+
+    print("Ingrese el descuento (%): ")
+    val descuento = readLine()!!.toDouble()
+    prod.setDescuento(descuento)
+
+    println("💰 Precio final: ${prod.calcularPrecioFinal()}")
 }
