@@ -12,34 +12,40 @@ Este repositorio contiene las prácticas desarrolladas en el curso de Programaci
 - **Práctica 4**: Conversión de temperaturas entre Celsius y Fahrenheit.  
 
 ---
+## 📂 Estructura del Proyecto
 
-## ⚙️ Requisitos
-- Tener instalado **Git** para clonar el repositorio.  
-- Tener instalado un **compilador de C++** (ejemplo: `g++` o MinGW).  
-- Editor de código (Visual Studio Code, CLion, Code::Blocks, etc.).  
+```
+trabajo1/
+│
+├── actividades/
+│ ├── Script 1 Clase para Cuenta Bancaria.kt
+│ ├── Script 2 Clase para Producto.kt
+│ ├── Script 3 Figuras con clase abstracta.kt
+│ ├── Script 4 Sistema de Biblioteca.kt
+│
+├── recursos/
+│ ├── Práctica 2. Programación Orientada a Objetos Kotlin.pdf
+│ ├── Rubrica Practica 2.docx
+│
+└── README.md
+```
+---
+
+
+## ⚙️ Requisitos Previos
+- Tener instalado **IntelliJ IDEA Community Edition o Ultimate**.  
+  👉 [Descargar IntelliJ IDEA](https://www.jetbrains.com/idea/download/)  
+- Instalar el **plugin de Kotlin** (en IntelliJ normalmente ya viene incluido).  
+- **JDK 17 o superior**.  
+  👉 [Descargar JDK](https://www.oracle.com/java/technologies/downloads)
 
 ---
 
-## ▶️ Cómo ejecutar
-1. Clonar el repositorio:
-   ```bash
-   git clone https://github.com/ALTgremox/Programacion-para-Dispositivos-Moviles.git
-
-
-2. Entrar al directorio del proyecto:
-  ```bash
-    cd Programacion-para-Dispositivos-Moviles
-  ```
-
-3. Compilar cualquier práctica (ejemplo con la práctica 3):
-  ```bash
-    g++ practica3.cpp -o practica3
-  ```
-
-4. Ejecutar el programa:
-  ```bash
-  ./practica3
-  ```
+## ▶️ Cómo Ejecutar
+1. Abrir **IntelliJ IDEA**.
+2. Seleccionar la opción **Open** y buscar la carpeta del proyecto (`trabajo1`).
+3. En el explorador lateral, abrir la carpeta `actividades/`.
+4. Seleccionar el archivo del ejercicio que se desea ejecutar (por ejemplo `Script 1 Evaluacion Empleados.kt`).
 
 ---
 
