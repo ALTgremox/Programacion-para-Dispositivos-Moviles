@@ -22,14 +22,17 @@ Este proyecto sirve como base para aprender a manejar **layouts**, **intents**, 
 
 ## ▶️ Cómo Ejecutar
 1. Clona este repositorio:
+
    ```bash
    git clone https://github.com/tu-usuario/MyApplication2.git
-```
+   ```
+   
 2. Abre el proyecto en Android Studio.
 
 3. Conecta un dispositivo o abre un emulador.
 
 4. Haz clic en Run ▶️ para compilar y ejecutar la aplicación.
+
 
 ---
 ## ✍️ Autor
