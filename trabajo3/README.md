@@ -1,4 +1,4 @@
-# 📱 MyApplication2
+# 📱 Practica 3
 
 Aplicación Android de prueba desarrollada en **Android Studio**.  
 Este proyecto sirve como base para aprender a manejar **layouts**, **intents**, y la interacción con elementos gráficos como **ImageView** y **Button**.
@@ -12,22 +12,24 @@ Este proyecto sirve como base para aprender a manejar **layouts**, **intents**, 
 
 ---
 
-## 📂 Estructura del Proyecto
+## 🛠️ Requisitos
+- **Android Studio** (Arctic Fox o superior).
+- **Gradle 8.x** (incluido en Android Studio).
+- **JDK 17** o superior.
+- Dispositivo físico o emulador con **Android 7.0 (API 24)** o superior.
 
+---
+
+## ▶️ Cómo Ejecutar
+1. Clona este repositorio:
+   ```bash
+   git clone https://github.com/tu-usuario/MyApplication2.git
 ```
-MyApplication2/
-│── app/
-│ ├── src/
-│ │ ├── main/
-│ │ │ ├── java/com/example/myapplication2/ # Código fuente (MainActivity.java)
-│ │ │ ├── res/ # Recursos (layouts, drawables, etc.)
-│ │ │ └── AndroidManifest.xml # Configuración de la app
-│ ├── build.gradle
-│── gradle/
-│── settings.gradle
-```
+2. Abre el proyecto en Android Studio.
 
+3. Conecta un dispositivo o abre un emulador.
 
+4. Haz clic en Run ▶️ para compilar y ejecutar la aplicación.
 
 ---
 ## ✍️ Autor
