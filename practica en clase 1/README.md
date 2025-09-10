@@ -1,37 +1,50 @@
-# 📘 Introducción a Kotlin.
+# 📱 CicloDeVidaApp2
 
-## 📌 Descripción
-Este proyecto contiene una serie de programas en **Kotlin**, desarrollados como parte de la tercera clase de aprendizaje del lenguaje.  
-Los ejercicios aplican conceptos básicos como:
+Aplicación Android de prueba desarrollada en **Android Studio**.  
+Este proyecto sirve como base para aprender a manejar **layouts**, **intents**, y la interacción con elementos gráficos como **ImageView** y **Button**.
 
-- Entrada de datos por teclado usando `readLine()`.
-- Generación de valores aleatorios con `Random()`.
-- Uso de estructuras de control (`when`, `if`, `for`, `while`).
-- Creación de funciones siguiendo la convención de nombres en **camelCase**.
-- Documentación inicial con descripción, autor, fecha de creación y última modificación.
+---
 
-Cada ejercicio se encuentra en un archivo **.kt** independiente, dentro de la carpeta `actividades`.
+## 🚀 Características
+- Uso de **camelCase** en todas las variables y funciones.
+- Botón que permite cambiar una imagen en la interfaz.
+- Estructura de proyecto estándar de Android Studio.
 
 ---
 
 ## 📂 Estructura del Proyecto
-
 ```
-trabajo1/
-│
-├── actividades/
-│ ├── Script 1 Evaluacion Empleados.kt
-│ ├── Script 2 Verificar si un numero es par o impar.kt
-│ ├── Script 3 Calculadora Basica.kt
-│ ├── Script 4 Adivina el Numero.kt
-│
-├── recursos/
-│ ├── Practica 1. Introducción a Kotlin..docx
-│ ├── Rubrica Práctica 1. Introducción a Kotlin.docx
-│
-└── README.md
+CicloDeVidaApp2/
+│── app/
+│ ├── src/
+│ │ ├── main/
+│ │ │ ├── java/com/example/myapplication2/ # Código fuente (MainActivity.java)
+│ │ │ ├── res/ # Recursos (layouts, drawables, etc.)
+│ │ │ └── AndroidManifest.xml # Configuración de la app
+│ ├── build.gradle
+│── gradle/
+│── settings.gradle
 ```
+---
 
+## 🛠️ Requisitos
+- **Android Studio** (Arctic Fox o superior).
+- **Gradle 8.x** (incluido en Android Studio).
+- **JDK 17** o superior.
+- Dispositivo físico o emulador con **Android 7.0 (API 24)** o superior.
+
+---
+
+## ▶️ Cómo Ejecutar
+1. Clona este repositorio:
+   ```bash
+   git clone https://github.com/tu-usuario/MyApplication2.git
+   ```
+2. Abre el proyecto en Android Studio.
+
+3. Conecta un dispositivo o abre un emulador.
+
+4. Haz clic en Run ▶️ para compilar y ejecutar la aplicación.
 ---
 
 ## ⚙️ Requisitos Previos
@@ -41,34 +54,6 @@ trabajo1/
 - **JDK 17 o superior**.  
   👉 [Descargar JDK](https://www.oracle.com/java/technologies/downloads)
 
----
-
-## ▶️ Cómo Ejecutar
-1. Abrir **IntelliJ IDEA**.
-2. Seleccionar la opción **Open** y buscar la carpeta del proyecto (`trabajo1`).
-3. En el explorador lateral, abrir la carpeta `actividades/`.
-4. Seleccionar el archivo del ejercicio que se desea ejecutar (por ejemplo `Script 1 Evaluacion Empleados.kt`).
-
-
----
-
-
-## 📌 Ejercicios Incluidos
-1. Evaluación de Empleados
-
-    Calcula nivel de rendimiento y dinero recibido según puntuación y salario.
-
-2. Número Par o Impar
-
-    Determina si el número ingresado es par o impar.
-
-3. Juego de Adivinanza
-
-    Genera un número aleatorio y pide al usuario adivinarlo.
-
-4. Tabla de Multiplicar
-
-    Muestra la tabla de multiplicar de un número ingresado por el usuario.
 
 ---
 
@@ -78,4 +63,4 @@ Hugo Alonso Diaz Chavez
 
 Curso: Programación para Dispositivos Móviles
 
-Fecha: 24/08/2025
+Fecha: 10/09/2025
