@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">practica guiada</string>
+
+    <string name="msg_name">Nombre</string>
+    <string name="msg_edad">Edad</string>
+    <string name="msg_email">Correo</string>
+</resources>
